@@ -4,5 +4,8 @@
   "description": "My personal ESLint configuration.",
   "main": "index.js",
   "author": "Arnelle Balane <arnellebalane@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "eslint-plugin-react": "^7.0.1"
+  }
 }
