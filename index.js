@@ -6,6 +6,7 @@ module.exports = {
         './rules/strict',
         './rules/variables',
         './rules/node',
-        './rules/style'
+        './rules/style',
+        './rules/es6'
     ]
 };
