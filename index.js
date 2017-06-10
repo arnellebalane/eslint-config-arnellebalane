@@ -7,6 +7,7 @@ module.exports = {
         './rules/variables',
         './rules/node',
         './rules/style',
-        './rules/es6'
+        './rules/es6',
+        './rules/react'
     ]
 };
