@@ -5,6 +5,7 @@ module.exports = {
         './rules/best-practices',
         './rules/strict',
         './rules/variables',
-        './rules/node'
+        './rules/node',
+        './rules/style'
     ]
 };
