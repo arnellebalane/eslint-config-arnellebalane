@@ -1,3 +1,6 @@
 module.exports = {
-    extends: []
+    extends: [
+        'eslint:recommended',
+        './rules/errors'
+    ]
 };
