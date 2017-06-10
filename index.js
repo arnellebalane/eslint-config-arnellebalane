@@ -1,13 +1,13 @@
 module.exports = {
     extends: [
         'eslint:recommended',
-        './rules/errors',
-        './rules/best-practices',
-        './rules/strict',
-        './rules/variables',
-        './rules/node',
-        './rules/style',
-        './rules/es6',
-        './rules/react'
+        './rules/errors.js',
+        './rules/best-practices.js',
+        './rules/strict.js',
+        './rules/variables.js',
+        './rules/node.js',
+        './rules/style.js',
+        './rules/es6.js',
+        './rules/react.js'
     ]
 };
