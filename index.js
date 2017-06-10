@@ -3,6 +3,7 @@ module.exports = {
         'eslint:recommended',
         './rules/errors',
         './rules/best-practices',
-        './rules/strict'
+        './rules/strict',
+        './rules/variables'
     ]
 };
