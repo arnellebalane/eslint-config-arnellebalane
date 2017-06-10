@@ -46,7 +46,7 @@ module.exports = {
         'react/jsx-no-undef': ['error'],
         'react/jsx-pascal-case': ['error'],
         'react/jsx-sort-props': ['error', {
-            callbackLast: true,
+            callbacksLast: true,
             noSortAlphabetically: true,
             reservedFirst: true
         }],
