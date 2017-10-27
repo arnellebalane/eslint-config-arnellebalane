@@ -1,4 +1,7 @@
 module.exports = {
+    parserOptions: {
+        "ecmaVersion": 6
+    },
     rules: {
         'arrow-body-style': ['error', 'as-needed'],
         'arrow-parens': ['error', 'always'],
