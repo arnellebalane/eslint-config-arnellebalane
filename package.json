@@ -5,7 +5,5 @@
   "main": "index.js",
   "author": "Arnelle Balane <arnellebalane@gmail.com>",
   "license": "MIT",
-  "dependencies": {
-    "eslint-plugin-react": "^7.0.1"
-  }
+  "dependencies": {}
 }
