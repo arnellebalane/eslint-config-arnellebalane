@@ -1,5 +1,5 @@
 module.exports = {
     rules: {
-        'strict': ['off']
+        strict: ['off']
     }
 };
