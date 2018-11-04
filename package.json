@@ -21,5 +21,11 @@
   "homepage": "https://github.com/arnellebalane/eslint-config-arnellebalane#readme",
   "devDependencies": {
     "eslint": "5.8.0"
+  },
+  "eslintConfig": {
+    "extends": "./index.js",
+    "env": {
+      "node": true
+    }
   }
 }
