@@ -6,6 +6,7 @@
   "author": "Arnelle Balane <arnellebalane@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "lint": "eslint **/*.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
