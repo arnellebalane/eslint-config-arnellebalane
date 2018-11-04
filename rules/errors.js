@@ -1,17 +1,21 @@
 module.exports = {
     rules: {
-        'no-await-in-loop': ['warn'],
-        'no-compare-neg-zero': ['warn'],
-        'comma-dangle': ['error', 'never'],
+        'for-direction': ['error'],
+        'getter-return': ['error'],
+        'no-async-promise-executor': ['off'],
+        'no-await-in-loop': ['off'],
+        'no-compare-neg-zero': ['error'],
         'no-cond-assign': ['error', 'except-parens'],
-        'no-console': ['warn'],
+        'no-console': ['off'],
         'no-constant-condition': ['error'],
         'no-control-regex': ['error'],
         'no-debugger': ['error'],
         'no-dupe-args': ['error'],
         'no-dupe-keys': ['error'],
         'no-duplicate-case': ['error'],
-        'no-empty': ['warn', { 'allowEmptyCatch': true }],
+        'no-empty': ['error', {
+            allowEmptyCatch: true
+        }],
         'no-empty-character-class': ['error'],
         'no-ex-assign': ['error'],
         'no-extra-boolean-cast': ['off'],
@@ -21,14 +25,19 @@ module.exports = {
         'no-inner-declarations': ['error', 'functions'],
         'no-invalid-regexp': ['error'],
         'no-irregular-whitespace': ['error'],
-        'no-negated-in-lhs': ['error'],
+        'no-misleading-character-class': ['off'],
         'no-obj-calls': ['error'],
-        'no-regex-spaces': ['warn'],
+        'no-prototype-builtins': ['off'],
+        'no-regex-spaces': ['error'],
         'no-sparse-arrays': ['error'],
+        'no-template-curly-in-string': ['warn'],
         'no-unexpected-multiline': ['error'],
         'no-unreachable': ['error'],
+        'no-unsafe-finally': ['error'],
+        'no-unsafe-negation': ['error'],
+        'require-atomic-updates': ['error'],
         'use-isnan': ['error'],
         'valid-jsdoc': ['off'],
-        'valid-typeof': ['warn']
+        'valid-typeof': ['error']
     }
 };
