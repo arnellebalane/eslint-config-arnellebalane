@@ -5,5 +5,21 @@
   "main": "index.js",
   "author": "Arnelle Balane <arnellebalane@gmail.com>",
   "license": "MIT",
-  "dependencies": {}
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arnellebalane/eslint-config-arnellebalane.git"
+  },
+  "keywords": [
+    "eslint-config"
+  ],
+  "bugs": {
+    "url": "https://github.com/arnellebalane/eslint-config-arnellebalane/issues"
+  },
+  "homepage": "https://github.com/arnellebalane/eslint-config-arnellebalane#readme",
+  "devDependencies": {
+    "eslint": "5.8.0"
+  }
 }
