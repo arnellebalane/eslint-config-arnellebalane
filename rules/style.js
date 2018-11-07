@@ -24,7 +24,7 @@ module.exports = {
         'eol-last': ['error'],
         'func-call-spacing': ['error', 'never'],
         'func-name-matching': ['error'],
-        'func-names': ['error', 'as-needed'],
+        'func-names': ['off'],
         'func-style': ['error', 'declaration', {
             allowArrowFunctions: true
         }],
