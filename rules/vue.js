@@ -92,7 +92,7 @@ module.exports = {
         'vue/multiline-html-element-content-newline': ['error'],
         'vue/no-spaces-around-equal-signs-in-attribute': ['error'],
         'vue/script-indent': ['error', 4, {
-            baseIndent: 1,
+            baseIndent: 0,
             switchCase: 1
         }],
         'vue/singleline-html-element-content-newline': ['off']
