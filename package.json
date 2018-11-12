@@ -20,10 +20,17 @@
   },
   "homepage": "https://github.com/arnellebalane/eslint-config-arnellebalane#readme",
   "devDependencies": {
-    "eslint": "5.8.0"
+    "eslint": "5.8.0",
+    "eslint-plugin-import": "2.14.0"
   },
   "eslintConfig": {
-    "extends": "./index.js",
+    "extends": [
+      "./index.js",
+      "./rules/plugins/import.js"
+    ],
+    "plugins": [
+      "import"
+    ],
     "env": {
       "node": true
     }
