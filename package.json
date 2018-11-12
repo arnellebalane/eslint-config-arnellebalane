@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-arnellebalane",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "My personal ESLint configuration.",
   "main": "index.js",
   "author": "Arnelle Balane <arnellebalane@gmail.com>",
