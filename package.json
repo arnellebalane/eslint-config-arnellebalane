@@ -24,6 +24,9 @@
     "eslint-plugin-import": "2.14.0",
     "eslint-plugin-unicorn": "6.0.1"
   },
+  "peerDependencies": {
+    "eslint-plugin-vue": "5.0.0-beta.3"
+  },
   "eslintConfig": {
     "extends": [
       "./index.js",
@@ -40,8 +43,5 @@
   },
   "publishConfig": {
     "access": "public"
-  },
-  "dependencies": {
-    "eslint-plugin-vue": "5.0.0-beta.3"
   }
 }
