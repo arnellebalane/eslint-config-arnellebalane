@@ -21,15 +21,18 @@
   "homepage": "https://github.com/arnellebalane/eslint-config-arnellebalane#readme",
   "devDependencies": {
     "eslint": "5.8.0",
-    "eslint-plugin-import": "2.14.0"
+    "eslint-plugin-import": "2.14.0",
+    "eslint-plugin-unicorn": "6.0.1"
   },
   "eslintConfig": {
     "extends": [
       "./index.js",
-      "./rules/plugins/import.js"
+      "./rules/plugins/import.js",
+      "./rules/plugins/unicorn.js"
     ],
     "plugins": [
-      "import"
+      "import",
+      "unicorn"
     ],
     "env": {
       "node": true
