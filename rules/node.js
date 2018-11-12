@@ -8,7 +8,7 @@ module.exports = {
         'no-new-require': ['error'],
         'no-path-concat': ['error'],
         'no-process-env': ['off'],
-        'no-process-exit': ['off'],
+        'no-process-exit': ['error'],
         'no-restricted-modules': ['off'],
         'no-sync': ['off']
     }
