@@ -6,9 +6,7 @@ module.exports = {
         'unicorn/explicit-length-check': ['error', {
             'non-zero': 'greater-than'
         }],
-        'unicorn/filename-case': ['error', {
-            case: 'kebabCase'
-        }],
+        'unicorn/filename-case': ['off'],
         'unicorn/no-abusive-eslint-disable': ['error'],
         'unicorn/no-process-exit': ['error'],
         'unicorn/throw-new-error': ['error'],
